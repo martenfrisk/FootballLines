@@ -1,0 +1,82 @@
+[
+  {
+    "year": 2000,
+    "table": ["Djurgardens IF","Malmo FF","Mjallby AIF","Landskrona BoIS","Vasteras SK FK","Athletic FC United","Enkopings SK FK","IK Brage","IF Sylvia","Kalmar FF","Assyriska FF","Osters IF","Umea FC","Atvidabergs FF","Ljungskile SK","Gunnilse IS"]
+  },
+  {
+    "year": 2001,
+    "table": ["Kalmar FF","Landskrona BoIS","Mjallby AIF","Gefle IF FF","Athletic FC United","Vasteras SK FK","IF Sylvia","Enkopings SK FK","Vastra Frolunda IF","IK Brage","IFK Malmo FK","Osters IF","Assyriska FF","GAIS","Umea FC","Motala AIF FK"]
+  },
+  {
+    "year": 2002,
+    "table": ["Osters IF","Enkopings SK FK","Vastra Frolunda IF","BK Hacken","Assyriska FF","Athletic FC United","IFK Malmo FK","Vasteras SK FK","Trelleborgs FF","Atvidabergs FF","Gefle IF FF","IF Brommapojkarna","IF Sylvia","IK Brage","Angelholms FF","Mjallby AIF"]
+  },
+  {
+    "year": 2003,
+    "table": ["Kalmar FF","Trelleborgs FF","BK Hacken","Atvidabergs FF","Vastra Frolunda IF","IF Brommapojkarna","Athletic FC United","Gefle IF FF","IFK Norrkoping","Assyriska FF","Bodens BK FF","Vasteras SK FK","Falkenbergs FF","IFK Malmo FK","BK Forward","IF Sylvia"]
+  },
+  {
+    "year": 2004,
+    "table": ["BK Hacken","Gefle IF FF","Assyriska FF","IFK Norrkoping","Osters IF","GAIS","Atvidabergs FF","Vasteras SK FK","Athletic FC United","IF Brommapojkarna","Vastra Frolunda IF","Falkenbergs FF","Bodens BK FF","Enkopings SK FK","IK Brage","Friska Viljor FC"]
+  },
+  {
+    "year": 2005,
+    "table": ["AIK","Osters IF","GAIS","Ljungskile SK","Orebro SK","IF Brommapojkarna","IFK Norrkoping","Falkenbergs FF","Athletic FC United","Atvidabergs FF","Trelleborgs FF","Mjallby AIF","Degerfors IF","Bodens BK FF","Vasteras SK FK","Vastra Frolunda IF"]
+  },
+  {
+    "year": 2006,
+    "table": ["Trelleborgs FF","Orebro SK","IF Brommapojkarna","IFK Norrkoping","Landskrona BoIS","Ljungskile SK","Mjallby AIF","GIF Sundsvall","Falkenbergs FF","Jonkopings Sodra IF","Degerfors IF","Atvidabergs FF","Assyriska FF","Athletic FC United","Qviding FIF","Umea FC"]
+  },
+  {
+    "year": 2007,
+    "table": ["IFK Norrkoping","Ljungskile SK","GIF Sundsvall","BK Hacken","IF Limhamn Bunkeflo","Atvidabergs FF","IK Sirius FK","Degerfors IF","Mjallby AIF","Orgryte IS Fotboll","Landskrona BoIS","Enkopings SK FK","Jonkopings Sodra IF","Falkenbergs FF","Osters IF","IF Sylvia"]
+  },
+  {
+    "year": 2008,
+    "table": ["Orgryte IS Fotboll","BK Hacken","IF Brommapojkarna","Assyriska FF","Angelholms FF","Atvidabergs FF","Falkenbergs FF","Mjallby AIF","Athletic FC United","Qviding FIF","Landskrona BoIS","IK Sirius FK","IF Limhamn Bunkeflo","Jonkopings Sodra IF","Enkopings SK FK","Degerfors IF"]
+  },
+  {
+    "year": 2009,
+    "table": ["Mjallby AIF","Atvidabergs FF","Assyriska FF","Syrianska FC","GIF Sundsvall","Falkenbergs FF","Angelholms FF","Landskrona BoIS","Ljungskile SK","Jonkopings Sodra IF","IFK Norrkoping","Athletic FC United","FC Trollhattan","Qviding FIF","IK Sirius FK","Vasalund"]
+  },
+  {
+    "year": 2010,
+    "table": ["Syrianska FC","IFK Norrkoping","GIF Sundsvall","Assyriska FF","Landskrona BoIS","Ljungskile SK","Falkenbergs FF","Hammarby IF","Orgryte IS Fotboll","Degerfors IF","IK Brage","Angelholms FF","Jonkopings Sodra IF","Osters IF","FC Trollhattan","Athletic FC United"]
+  },
+  {
+    "year": 2011,
+    "table": ["Atvidabergs FF","GIF Sundsvall","Angelholms FF","Osters IF","Degerfors IF","IF Brommapojkarna","Falkenbergs FF","Ljungskile SK","Assyriska FF","Landskrona BoIS","Hammarby IF","Jonkopings Sodra IF","IFK Varnamo","IK Brage","Vasteras SK FK","Qviding FIF"]
+  },
+  {
+    "year": 2012,
+    "table": ["Osters IF","IF Brommapojkarna","Halmstads BK","Hammarby IF","Ljungskile SK","Landskrona BoIS","Jonkopings Sodra IF","Assyriska FF","Angelholms FF","IK Brage","Varbergs BoIS FC","Degerfors IF","Falkenbergs FF","IFK Varnamo","Trelleborgs FF","Umea FC"]
+  },
+  {
+    "year": 2013,
+    "table": ["Falkenbergs FF","Orebro SK","GIF Sundsvall","Degerfors IF","Hammarby IF","Angelholms FF","GAIS","Assyriska FF","Ljungskile SK","Ostersunds FK","Jonkopings Sodra IF","Landskrona BoIS","Varbergs BoIS FC","IFK Varnamo","Orgryte IS Fotboll","IK Brage"]
+  },
+  {
+    "year": 2014,
+    "table": ["Hammarby IF","GIF Sundsvall","Ljungskile SK","Jonkopings Sodra IF","Ostersunds FK","IK Sirius FK","Degerfors IF","Varbergs BoIS FC","IFK Varnamo","Syrianska FC","GAIS","Angelholms FF","Osters IF","Assyriska FF","Landskrona BoIS","Husqvarna FF"]
+  },
+  {
+    "year": 2015,
+    "table": ["Jonkopings Sodra IF","Ostersunds FK","IK Sirius FK","Assyriska FF","Varbergs BoIS FC","Ljungskile SK","Syrianska FC","Athletic FC United","Degerfors IF","IFK Varnamo","GAIS","Angelholms FF","Mjallby AIF","IK Frej Taby","Utsikten","IF Brommapojkarna"]
+  },
+  {
+    "year": 2016,
+    "table": ["IK Sirius FK","Athletic FC United","Halmstads BK","Dalkurd FF","Varbergs BoIS FC","Atvidabergs FF","Trelleborgs FF","GAIS","Orgryte IS Fotboll","IK Frej Taby","IFK Varnamo","Degerfors IF","Syrianska FC","Assyriska FF","Ljungskile SK","Angelholms FF"]
+  },
+  {
+    "year": 2017,
+    "table": ["IF Brommapojkarna","Dalkurd FF","Trelleborgs FF","Falkenbergs FF","Osters IF","IFK Varnamo","Helsingborgs IF","Degerfors IF","GAIS","Norrby IF","Varbergs BoIS FC","Gefle IF FF","Orgryte IS Fotboll","IK Frej Taby","Syrianska FC","Atvidabergs FF"]
+  },
+  {
+    "year": 2018,
+    "table": ["Helsingborgs IF","Falkenbergs FF","AFC Eskilstuna","Orgryte IS Fotboll","Halmstads BK","IK Brage","Degerfors IF","Osters IF","IK Frej Taby","GAIS","Jonkopings Sodra IF","Norrby IF","IFK Varnamo","Varbergs BoIS FC","Gefle IF FF","Landskrona BoIS"]
+  },
+  {
+    "year": 2019,
+    "table": ["Mjallby AIF","Varbergs BoIS FC","IK Brage","Jonkopings Sodra IF","Degerfors IF","Halmstads BK","Orgryte IS Fotboll","Dalkurd FF","Norrby IF","Vasteras SK FK","Trelleborgs FF","GAIS","Osters IF","IK Frej Taby","IF Brommapojkarna","Syrianska FC"]
+  }
+ ]

@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+// import Victory from './Victory';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <Victory /> */}
+    {/* <Viz /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
