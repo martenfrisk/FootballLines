@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/FootballLines/static/css/main.dbd54d61.chunk.css",
+    "main.js": "/FootballLines/static/js/main.7d64c074.chunk.js",
+    "main.js.map": "/FootballLines/static/js/main.7d64c074.chunk.js.map",
+    "runtime-main.js": "/FootballLines/static/js/runtime-main.01f81803.js",
+    "runtime-main.js.map": "/FootballLines/static/js/runtime-main.01f81803.js.map",
+    "static/js/2.fc189d03.chunk.js": "/FootballLines/static/js/2.fc189d03.chunk.js",
+    "static/js/2.fc189d03.chunk.js.map": "/FootballLines/static/js/2.fc189d03.chunk.js.map",
+    "index.html": "/FootballLines/index.html",
+    "precache-manifest.f072d2f1cf2144c67352623a790571cf.js": "/FootballLines/precache-manifest.f072d2f1cf2144c67352623a790571cf.js",
+    "service-worker.js": "/FootballLines/service-worker.js",
+    "static/css/main.dbd54d61.chunk.css.map": "/FootballLines/static/css/main.dbd54d61.chunk.css.map",
+    "static/js/2.fc189d03.chunk.js.LICENSE.txt": "/FootballLines/static/js/2.fc189d03.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01f81803.js",
+    "static/js/2.fc189d03.chunk.js",
+    "static/css/main.dbd54d61.chunk.css",
+    "static/js/main.7d64c074.chunk.js"
+  ]
+}
