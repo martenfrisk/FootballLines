@@ -8,10 +8,9 @@ import {
 	Tooltip,
 	CartesianGrid,
 	ResponsiveContainer,
-	Legend,
 	Brush
 } from 'recharts'
-import { dif, years, aik, misc } from './data'
+import { dif, years, aik } from './data'
 import hammarby from './assets/ham.json'
 import malmo from './assets/malmo.json'
 import goteborg from './assets/ifkgoteborg.json'
@@ -20,12 +19,12 @@ import './App.css'
 
 const App = () => {
 	const [ show, setShow ] = useState({
-		dif: false,
+		dif: true,
 		aik: false,
-		ham: false,
+		ham: true,
 		mff: false,
-		gbg: true,
-		bkh: true,
+		gbg: false,
+		bkh: false,
 		icons: true
 	})
 
@@ -43,14 +42,14 @@ const App = () => {
 		setShow({ ...show, [e.target.name]: e.target.checked })
 	}
 
-	const renderColorfulLegendText = (value: any, entry: any) => {
-		const { color } = entry
-		if (value === 'div1' || value === 'div2' || value === 'div3') {
-			return null
-		} else {
-			return <span style={{ color }}>{value}</span>
-		}
-	}
+	// const renderColorfulLegendText = (value: any, entry: any) => {
+	// 	const { color } = entry
+	// 	if (value === 'div1' || value === 'div2' || value === 'div3') {
+	// 		return null
+	// 	} else {
+	// 		return <span style={{ color }}>{value}</span>
+	// 	}
+	// }
 
 	const formatTooltip = (value: any, name: any, props: any) => {
 		let year = props.payload.yr
@@ -116,6 +115,7 @@ const App = () => {
 
 	return (
 		<div>
+			<h1 style={{width: '100%', textAlign: 'center'}}>Football Lines</h1>
 			<div style={{ marginTop: '50px', marginLeft: '50px' }}>
 				<label
 					style={{
@@ -220,7 +220,7 @@ const App = () => {
 					/>
 				</label>
 			</div>
-			<ResponsiveContainer width="100%" height={450}>
+			<ResponsiveContainer width="100%" height={750}>
 				<ComposedChart data={years} margin={{ bottom: 20, left: 50, top: 40, right: 40 }}>
 					<defs>
 						<linearGradient id="divOne" x1="0" y1="0" x2="0" y2="1">
@@ -247,15 +247,16 @@ const App = () => {
 						type="number"
 					/>
 					<Tooltip formatter={formatTooltip} />
-					<Legend
-						align="right"
-						verticalAlign="top"
+					{/* <Legend
+						align="center"
+						verticalAlign="bottom"
 						iconSize={0}
-						layout="vertical"
+						margin={{ top: 150, left: 0, right: 0, bottom: 0 }}
+						layout="horizontal"
 						formatter={renderColorfulLegendText}
-					/>
-					<div style={{ marginTop: '30px', height: '10px' }}> </div>
-					<Brush dataKey="yr" height={30} stroke="rgba(0,0,0, 0.2)" />
+					/> */}
+					{/* <div style={{ marginTop: '30px', height: '10px' }}> </div> */}
+					<Brush dataKey="yr" height={50} stroke="rgba(0,0,0, 0.2)" />
 					<Area
 						label={false}
 						stroke="none"
@@ -297,7 +298,7 @@ const App = () => {
 							dot={<CustomizedDot />}
 							dataKey="diftot"
 							stroke="#32baf2"
-							strokeWidth={1}
+							strokeWidth={2}
 							xAxisId="0"
 							name="Djurgården"
 						/>
@@ -310,7 +311,7 @@ const App = () => {
 							dot={<CustomizedDot />}
 							dataKey="aiktot"
 							stroke="black"
-							strokeWidth={1}
+							strokeWidth={2}
 							xAxisId="0"
 							name="AIK"
 						/>
@@ -323,7 +324,7 @@ const App = () => {
 							dot={<CustomizedDot />}
 							dataKey="pos"
 							stroke="green"
-							strokeWidth={1}
+							strokeWidth={2}
 							xAxisId="0"
 							name="Hammarby"
 						/>
@@ -336,7 +337,7 @@ const App = () => {
 							dot={<CustomizedDot />}
 							dataKey="pos"
 							stroke="#0091d4"
-							strokeWidth={1}
+							strokeWidth={2}
 							xAxisId="0"
 							name="Malmö FF"
 						/>
@@ -349,7 +350,7 @@ const App = () => {
 							dot={<CustomizedDot />}
 							dataKey="pos"
 							stroke="rgb(19, 103, 188)"
-							strokeWidth={1}
+							strokeWidth={2}
 							xAxisId="0"
 							name="IFK Göteborg"
 						/>
@@ -362,7 +363,7 @@ const App = () => {
 							dot={<CustomizedDot />}
 							dataKey="pos"
 							stroke="black"
-							strokeWidth={1}
+							strokeWidth={2}
 							xAxisId="0"
 							name="BK Häcken"
 							connectNulls
